@@ -14,9 +14,10 @@ body {
   width: 110%;
   height: 100px;
   margin: 0px;
+  padding: 5px 50px;
   background-color: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header {
