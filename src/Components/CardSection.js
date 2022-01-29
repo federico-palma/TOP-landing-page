@@ -1,7 +1,7 @@
 const CardSection = () => {
     return (
         <div className="card-section">
-            <h2 className="cards-title">They cover every emotion</h2>
+            <h2 className="cards-title">They cover every emotion!</h2>
             <div className="cards">
                 <div className="card" id="card-1">
                     <img className="card-img"src={require("../images/happy-cat.jpeg")} alt=""/>
