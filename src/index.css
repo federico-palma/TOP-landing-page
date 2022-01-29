@@ -5,6 +5,11 @@
 
 body {
   margin: 110px 0px;
+  background-color: #3b4d66;
+}
+
+button{
+  cursor: pointer;
 }
 
 /* Navbar */
@@ -71,7 +76,6 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-right: 10%;
-  
 }
 
 .navbar-link {
@@ -81,5 +85,28 @@ body {
   background: none;
   border: 1px solid #f9faf8;
   border-radius: 8px;
-  cursor: pointer;
+}
+
+.intro {
+  margin: 0px;
+  padding: 10px 100px;
+  color: #f9faf8;
+  background-color: #3b4d66;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.intro p {
+  max-width: 85%;
+}
+
+.intro button {
+  font-size: 1.3rem;
+  padding: 10px;
+  color: #f9faf8;
+  background: none;
+  border: 1px solid #f9faf8;
+  border-radius: 8px;
 }
