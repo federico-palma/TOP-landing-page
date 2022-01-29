@@ -35,6 +35,35 @@ body {
   margin-right: 30px;
 }
 
+#navbar-logo:hover {
+  animation-name: flip-icon;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+}
+
+@keyframes flip-icon {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  25% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+  50% {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  75% {
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
 .navbar-links {
   width: 300px;
   display: flex;
