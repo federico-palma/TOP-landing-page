@@ -44,7 +44,8 @@ button{
 #navbar-logo:hover {
   animation-name: flip-icon;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
+  animation-timing-function: steps(1, end);
 }
 
 @keyframes flip-icon {
@@ -52,17 +53,9 @@ button{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  25% {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-  }
   50% {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-  }
-  75% {
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
   }
   100% {
     -webkit-transform: scaleX(1);
