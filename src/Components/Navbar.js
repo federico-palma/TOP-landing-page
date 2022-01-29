@@ -2,7 +2,7 @@ const Navbar = () => {
     return (
     <nav className="navbar">
         <div className="header">
-            <img id="navbar-logo" src={require("./images/icon-cat.png")} alt="logo-cat.png"/>
+            <img id="navbar-logo" src={require("../images/icon-cat.png")} alt="logo-cat.png"/>
             <h2>Cat Memes</h2>
         </div>
         

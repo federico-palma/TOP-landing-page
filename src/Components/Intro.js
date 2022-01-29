@@ -7,7 +7,7 @@ const Intro = () => {
                 <button className="sign-up-btn">Sign up for More!</button>
             </div>
             <div className="intro-img-container">
-                <img id="intro-img" src={require("./images/intro-cat.png")} alt="cat meme.png"/>
+                <img id="intro-img" src={require("../images/intro-cat.png")} alt="cat meme.png"/>
             </div>
         </div>
     );
