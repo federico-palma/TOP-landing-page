@@ -39,12 +39,7 @@ button{
   height: auto;
   margin-left: 10%;
   margin-right: 30px;
-}
-
-#navbar-logo:hover {
-  animation-name: flip-icon;
-  animation-iteration-count: infinite;
-  animation-duration: 1.5s;
+  animation: flip-icon 1.5s infinite;
   -webkit-animation-timing-function: steps(1, end);
   -moz-animation-timing-function: steps(1, end);
   -ms-animation-timing-function: steps(1, end);
