@@ -45,6 +45,10 @@ button{
   animation-name: flip-icon;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
+  -webkit-animation-timing-function: steps(1, end);
+  -moz-animation-timing-function: steps(1, end);
+  -ms-animation-timing-function: steps(1, end);
+  -o-animation-timing-function: steps(1, end);
   animation-timing-function: steps(1, end);
 }
 
@@ -80,6 +84,7 @@ button{
   border-radius: 8px;
 }
 
+/* Intro */
 .intro {
   margin: 0px;
   padding: 10px 100px;
@@ -93,6 +98,7 @@ button{
 
 .intro p {
   max-width: 85%;
+  min-width: 210px;
 }
 
 .intro button {
@@ -102,4 +108,14 @@ button{
   background: none;
   border: 1px solid #f9faf8;
   border-radius: 8px;
+}
+
+.intro-img-container {
+  max-width: 550px;
+  min-width: 250px;
+}
+
+#intro-img {
+  max-width: 100%;
+  min-width: 50%;
 }

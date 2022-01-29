@@ -3,7 +3,7 @@ const Intro = () => {
         <div className="intro">
             <div className="intro-text">
                 <h1>Cat Memes!</h1>
-                <p>Cats have always been the best source of entertainment, and it's now more true than ever on the age of interenet with: CAT MEMES.</p>
+                <p>Cats have always been the best source of entertainment, and it's now more true than ever on the age of internet with: CAT MEMES.</p>
                 <button className="sign-up-btn">Sign up for More!</button>
             </div>
             <div className="intro-img-container">
